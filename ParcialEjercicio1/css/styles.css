@@ -1,0 +1,69 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #d7fcd0;
+}
+
+body>header,
+body>section,
+body>main {
+  margin: 1rem 0.5rem;
+}
+
+body h1 {
+  color: red;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+h2 {
+  color: firebrick;
+  font-size: 1.4em;
+  margin-bottom: 1rem;
+}
+
+ul {
+  padding-left: 3rem;
+  color: blue;
+  font-size: 1em;
+}
+
+section ul li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+strong {
+  font-family: inherit;
+}
+
+section>ul li strong {
+  color: green;
+  font-weight: normal;
+}
+
+main p {
+  color: blue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+main p span {
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+main h2 {
+  margin-top: 1rem;
+}
+
+main article ul {
+  margin-top: 1rem;
+}
